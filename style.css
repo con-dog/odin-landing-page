@@ -10,6 +10,9 @@ body {
   padding: 0;
 }
 
+/*-------------
+2.0 Header
+  -------------*/
 nav {
   background-color: #1F2937;
   display: flex;
@@ -17,15 +20,6 @@ nav {
   align-items: center;
   margin: 0;
   padding: 2rem 5rem;
-}
-
-footer {
-  background-color: #1F2937;
-  color: #F9FAF8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
 }
 
 ul {
@@ -49,6 +43,9 @@ a {
   padding: 0;
 }
 
+/*-------------
+3.0 Hero
+  -------------*/
 .hero {
   background-color: #1F2937;
   display: flex;
@@ -98,13 +95,50 @@ a {
 }
 
 /*-------------
-2.0 Typography
+4.0 Info
+  -------------*/
+.info {
+  padding: 2rem 5rem;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.info img {
+  width: 200px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+}
+
+/*-------------
+5.0 Quote
   -------------*/
 
 /*-------------
-3.0 Layout
+6.0 Call to Action
   -------------*/
 
 /*-------------
-4.0 Components
+7.0 Footer
   -------------*/
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
