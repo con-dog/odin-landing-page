@@ -145,6 +145,28 @@ figcaption {
 /*-------------
 6.0 Call to Action
   -------------*/
+.call-to-action {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  margin: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.action {
+  background-color: #3882F6;
+  border-color: #F9FAF8;
+  color: #F9FAF8;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.call-to-action> {
+  flex: 1;
+}
 
 /*-------------
 7.0 Footer
